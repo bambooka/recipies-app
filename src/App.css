@@ -8,3 +8,14 @@ body {
 .letter-spacing {
     letter-spacing: 0.5rem;
 }
+
+.header-hero {
+    /*min-height: calc(100vh - 70px);*/
+    /*background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("./images/bg-header.jpg")center/cover no-repeat;*/
+    min-height: calc(100vh - 70px);
+    background: linear-gradient(rgba(241, 184, 168, 0.3), rgba(251, 84, 168, 0.3)), url("./images/bg-header.jpg")center/cover no-repeat;
+}
+
+.container-fluid {
+    padding: 0 !important;
+}
