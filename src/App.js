@@ -15,7 +15,7 @@ function App() {
                 <Navbar />
                 {/*navbar*/}
                 <Switch>
-                    <Route path="/" component={Home} />
+                    <Route exact path="/" component={Home} />
                     <Route path="/recipes" component={Recipes}/>
                     <Route path="/recipes/:id" component={SingleRecipe} />
                     <Route component={Default} />
