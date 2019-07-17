@@ -15,7 +15,7 @@ export default class Recipes extends React.Component {
 
     handleChange = (e) => {
         this.setState({
-            search: e.targe.value
+            search: e.target.value
         })
     };
 
