@@ -27,8 +27,9 @@ export default class Recipes extends React.Component {
         return (
             <>
                 <Search search={this.state.search} handleChange={this.handleChange} handleSubmit={this.handleSubmit}/>
-                <RecipeList recipes={this.state.recipes}/>
+                <RecipeList recipes={this.state.recipes} />
             </>
         )
+
     }
 }
